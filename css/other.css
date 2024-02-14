@@ -1,13 +1,33 @@
 @import url("https://fonts.cdnfonts.com/css/sharp-sans");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.mb-4{
+  position: absolute;
+  top: 50px;
+  left: 0;
+  margin-bottom: 0px!important;
+}
+
+
 .album-section {
   min-height: 100vh;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 200px 0 100px;
+  padding: 100px 0 30px;
 }
+
+
+.z-inner-vid{
+  align-items: flex-end!important;
+}
+
+.z-inner-vid .mb-4{
+  top:25px;
+}
+
+
 .album-section:before {
   content: "";
   height: 100%;
@@ -20,7 +40,7 @@
 }
 .album-section .section-heading {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   font-family: "Sharp Sans", sans-serif;
   color: #fff;
   font-weight: bold;
@@ -52,7 +72,51 @@
 .z-top {
   position: relative;
   z-index: 20;
+  height: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.cil-res{
+  align-items: flex-end;
+}
+
+.cil-pro-res{
+  align-items: flex-end;
+}
+
+.inner-vid-res{
+  position: relative!important;
+}
+
+.alb-main-res{
+  align-items: flex-end;
+}
+
+.his-mob-res, .z-serv-vid-res{
+  align-items: flex-end;
+}
+
+.inner-his-res, .serv-des-main, .serv-des-2{
+  align-items: flex-end;
+  padding-bottom: 50px;
+}
+
+.fam-his-res, .serv-des-res, .serv-des-page, .serv-pic-res, .serv-vid-page, .user-page-res, .userPage-civ-res{
+  align-items: flex-end;
+}
+
+.z-serv-vid-res .mb-4{
+  top:25px;
+}
+
+.serv-vid-inner-res{
+  position: relative!important;
+}
+
+
+
 
 .album-inner-content .profile {
   width: 100%;
@@ -93,11 +157,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
   overflow: hidden;
   border: 3px solid #fff;
   position: relative;
-  box-shadow: 0px 25px 30px 0px rgb(255, 255, 255);
+  box-shadow: 0px 0px 5px 3px #fff;
   background-color: #000;
 }
 .profile-blocks .profile-wrapper:before {
@@ -143,7 +206,7 @@
   overflow: hidden;
   border: 3px solid #fff;
   position: relative;
-  box-shadow: 0px 25px 30px 0px rgb(255, 255, 255);
+  box-shadow: 0px 0px 5px 3px #fff;
 }
 .profile-blocks2 .profile-wrapper:before {
   content: "";
@@ -165,7 +228,7 @@
   font-weight: 600;
   line-height: 45px;
   text-align: center;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.856);
 }
 .profile-blocks2 .profile-wrapper .vid-button {
   position: absolute;
@@ -230,7 +293,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .all-btn #popupContainer {
   display: none;
@@ -565,8 +628,10 @@ h1 {
 }
 
 .image-frame {
-  position: relative;
+  position: absolute;
+  bottom:0;
   z-index: -9999;
+  width: 100%;
 }
 .image-frame img {
   width: 100%;

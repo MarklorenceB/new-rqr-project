@@ -10,6 +10,7 @@
   } */
   .common-conntent-block {
     gap: 15px;
+    justify-content: space-between;
   }
   .common-conntent-block .profile-wrapper {
     width: 100%;
@@ -84,6 +85,12 @@
     width: 350px;
     align-items: center;
   }
+
+  .image-frame {
+    position: relative;
+  }
+
+  
   .image-frame .image-name {
     font-size: 20px;
   }
@@ -162,12 +169,11 @@
     margin-bottom: 15px;
   }
   .profile-blocks2 .profile-wrapper:before {
-    background-color: rgba(70, 60, 60, 0.568);
+    background-color: rgba(70, 60, 60, 0.795);
   }
   .profile-blocks2 .profile-wrapper {
     border: none;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px 0px rgb(255, 255, 255);
   }
   .h-auto {
     height: 100vh !important;
@@ -177,8 +183,9 @@
     height: auto;
   }
   .gallery-mobile {
-    padding-top: 120px;
+    padding-top: 200px;
     padding-bottom: 20px;
+    height: 100vh;
   }
   .service-pix .wrapper .images-slider .pix-slider {
     margin-top: -150px;
@@ -645,10 +652,10 @@
     font-size: 25px;
     text-align: center;
   }
-  .home-banner-upload {
+  /* .home-banner-upload {
     padding-top: 100px;
     padding-bottom: 20px;
-  }
+  } */
   .home-banner-upload .wrapper .content .upload-list {
     margin-bottom: 0;
   }
@@ -826,11 +833,12 @@
 }
 @media (max-width: 500px) {
   .profile-blocks .profile-wrapper h3 {
-    font-size: 10px !important;
+    font-size: 13px !important;
+    line-height: 1em;
   }
   .profile-blocks2 .profile-wrapper h3 {
-    font-size: 22px !important;
-    line-height: 1.2;
+    font-size: 23px !important;
+    line-height: 1em;
   }
   /* .profile-blocks2 .profile-wrapper {
     min-height: 50px;
@@ -841,9 +849,215 @@
     border: 1px solid #fff;
     border-radius: 5px;
     box-shadow: 0px 10px 20px 0px rgb(255, 255, 255);
+    padding: 7px;
   }
   .profile-blocks {
     row-gap: 0;
+  }
+
+
+  /* CIVILLIAN UPDATES */
+
+  .mb-4{
+    margin-bottom: 10px!important;
+    position: relative;
+    top:-30px;
+  }
+
+  .back-btn{
+    margin-top: 0px;
+  }
+
+  .album-section{
+    align-items: center;
+    padding:0px 20px 30px!important;
+  }
+
+  .profile-blocks2 .profile-wrapper{
+    min-height: 90px;
+  }
+
+  .main-wrap{
+    margin-top: 20px;
+  }
+
+  .civilian-profile h2{
+    font-size: 25px;
+  }
+
+
+  /* CIVIL PICTURE INNER 2 */
+
+  .z-top {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+  }
+
+  .mobile-res{
+    align-items: flex-end;
+  }
+
+  .button-mob-res{
+    top:-30px;
+  }
+
+  .alb-mob-res{
+    align-items: flex-end;
+    padding-bottom: 50px!important;
+  }
+
+  .common-conntent-block{
+    gap:10px;
+    justify-content: space-between;
+  }
+
+  .cil-pro-res{
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+
+  .pro-res{
+    align-items: flex-end;
+  }
+
+  .cil-pro-res .mb-4{
+    top:-10px!important;
+  }
+
+  .inner-vid{
+    align-items: flex-end!important;
+  }
+
+  .z-inner-vid {
+    align-items: flex-start!important;
+  }
+
+  .z-inner-vid .mb-4{
+    top: 0px;
+  }
+
+  .mob-res{
+    align-items: flex-end;
+  }
+
+  .his-mob-res .mb-4{
+    top: 0px;
+  }
+
+  .m-view h1{
+    margin-bottom: 10px;
+  }
+
+  .service-desc{
+    padding: 0px 10px;
+  }
+
+  .inner-his-res{
+    align-items: flex-start;
+    padding-bottom: 0px;
+  }
+
+
+  .home-banner-upload{
+    height: 100vh!important;
+  }
+
+  .name-mob-res, .love1-mob-res, .serv-des-mob-res{
+    padding: 100px 20px 50px!important;
+    justify-content: center;
+  }
+
+
+  .fam-his-main-res, .serv-des-res{
+    padding-top: 100px!important;
+    justify-content: center;
+  }
+
+  .serv-des-res .mb-4{
+    top:-10px;
+  }
+
+  .home-banner .wrapper .content p{
+    font-size: 12px;
+    font-weight: 400!important;
+  }
+
+  .signup .wrapper .form h1{
+    font-size: 50px;
+  }
+
+  .serv-des-main, .serv-des-2{
+    padding-bottom: 0px;
+  }
+
+  .service-pix{
+    height: 100vh!important;
+  }
+
+  .gallery-mobile {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    height: 100vh;
+  }
+
+  .z-serv-vid-res .mb-4{
+    top:0px;
+  }
+
+  .vid-res-mob{
+    align-items: flex-end;
+  }
+
+  .uploadBtn{
+    top: 0px;
+  }
+  
+  .home-banner{
+    height: 100vh!important;
+  }
+  
+  .home-banner .wrapper .content-2 .drop-wrapper .drop-zone{
+    align-items: center;
+  }
+
+  .custom-col{
+    padding: 0px;
+    width: 45%!important;
+  }
+
+  .home-banner-upload .wrapper .content{
+    gap:10px;
+  }
+
+  .home-banner-upload .wrapper .content .upload-list{
+    width: 100%!important;
+    gap:10px;
+    justify-content: space-between;
+  }
+
+  .home-banner-upload .wrapper .content .upload-list .list{
+    padding:10px!important;
+    gap:10px;
+    padding-top:20px!important;
+    margin: 0px!important;
+  }
+
+  .home-banner-upload .wrapper .content h1{
+    font-size: 35px;
+    line-height: 1em;
+    margin-bottom: 10px;
+  }
+
+
+  .home-banner-upload .wrapper .content .upload-list .list h2{
+    font-size: 23px;
+  }
+
+  .upload-latest-res{
+    justify-content: center;
+    padding-top: 60px!important;
   }
 }
 /* @media (max-width: 350px) {
