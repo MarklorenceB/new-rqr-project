@@ -1,0 +1,1080 @@
+@import url("https://fonts.cdnfonts.com/css/bebas-neue");
+@import url("https://fonts.cdnfonts.com/css/samsung-sharp-sans");
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+p {
+  font-family: "Samsung Sharp Sans", sans-serif;
+}
+
+* {
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+span,
+p,
+a,
+label {
+  margin-bottom: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.ease,
+a,
+input[type=submit],
+button {
+  transition: all 0.5s ease;
+}
+
+.relative {
+  position: relative;
+}
+
+.clearfix {
+  display: block;
+  clear: both;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+.center-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.middle-div {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.hori-div {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.bg-common {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.relative,
+.rel {
+  position: relative;
+}
+
+.absolute,
+.abs {
+  position: absolute;
+}
+
+input:focus,
+button:focus,
+textarea:focus {
+  outline: none;
+}
+
+header {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+}
+
+.h-auto {
+  height: 120vh !important;
+}
+
+.h-auto-2 {
+  height: 110vh !important;
+}
+
+.h-auto-3 {
+  height: 130vh !important;
+}
+
+.home-banner {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+  padding-top: 250px;
+}
+.home-banner .back-btn {
+  background-color: #bd1733;
+  font-size: 15px;
+  font-family: "Sharp Sans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 15px 20px;
+  line-height: 1;
+  border-radius: 10px;
+  color: #fff;
+}
+.home-banner .back-btn img {
+  width: 30px;
+}
+.home-banner .wrapper {
+  align-items: center;
+}
+.home-banner .wrapper .content h1 {
+  color: #fff;
+  font-size: 180px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.home-banner .wrapper .content .mt {
+  margin-top: -40px;
+}
+.home-banner .wrapper .content p {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.home-banner .wrapper .content span a {
+  color: #fff;
+  text-decoration: underline;
+}
+.home-banner .wrapper .content .btn-home {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.home-banner .wrapper .content .btn-home .btn-login-after {
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 17px 60px;
+  border-radius: 5px;
+}
+.home-banner .wrapper .content .btn-home .btn-login-after a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Samsung Sharp Sans", sans-serif;
+  text-align: center;
+}
+.home-banner .wrapper .content .btn-home .btn-scan-after {
+  background-color: #bd1733;
+  padding: 18px 50px;
+  border-radius: 5px;
+}
+.home-banner .wrapper .content .btn-home .btn-scan-after img {
+  width: 20%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.home-banner .wrapper .content .btn-home .btn-scan-after a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Samsung Sharp Sans", sans-serif;
+  text-align: center;
+}
+.home-banner .wrapper .content .btn-home .btn-login {
+  background-color: #bd1733;
+  padding: 17px 60px;
+  border-radius: 5px;
+}
+.home-banner .wrapper .content .btn-home .btn-login a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Samsung Sharp Sans", sans-serif;
+  text-align: center;
+}
+.home-banner .wrapper .content .btn-home .btn-scan {
+  background-color: #2c4999;
+  padding: 18px 30px;
+  border-radius: 5px;
+}
+.home-banner .wrapper .content .btn-home .btn-scan img {
+  width: 20%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.home-banner .wrapper .content .btn-home .btn-scan a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Samsung Sharp Sans", sans-serif;
+  text-align: center;
+}
+.home-banner .wrapper .content-2 h1 {
+  color: #fff;
+  font-size: 53px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.home-banner .wrapper .content-2 span {
+  color: #fff;
+  font-family: "Samsung Sharp Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+.home-banner .wrapper .content-2 .head-upload {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.home-banner .wrapper .content-2 .head-upload h5 {
+  color: #555a6b;
+  font-weight: normal;
+}
+.home-banner .wrapper .content-2 .head-upload button {
+  background-color: #bd1733;
+  padding: 13px 25px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+}
+.home-banner .wrapper .content-2 .drop-wrapper {
+  padding: 60px 20px;
+  background-color: #fff;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.home-banner .wrapper .content-2 .drop-wrapper .drop-zone {
+  margin-top: 0;
+  padding: 0;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+}
+.home-banner .wrapper .content-2 .drop-wrapper .drop-zone img {
+  margin: 0 0 10px;
+}
+.home-banner .wrapper .content-2 .drop-wrapper .drop-details {
+  margin: 0;
+}
+.home-banner .wrapper .content-2 .drop-wrapper .drop-details p {
+  color: #555a6b !important;
+  font-family: "Samsung Sharp Sans", sans-serif;
+  font-size: 15px;
+  text-transform: lowercase;
+}
+.home-banner .wrapper .content-2 .drop-wrapper h3 {
+  font-family: "Samsung Sharp Sans", sans-serif;
+  font-size: 15px;
+  color: #555a6b;
+  margin-top: 10px;
+}
+.home-banner .wrapper .content-2 .drop-wrapper .custom-1 {
+  font-family: "Samsung Sharp Sans", sans-serif;
+  font-size: 30px;
+  color: #2c4999;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.home-banner .wrapper .content-2 .drop-wrapper h4 {
+  font-family: "Samsung Sharp Sans", sans-serif;
+  font-size: 15px;
+  color: #555a6b;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.home-banner .wrapper .content-2 .drop-wrapper .drop-zone__prompt {
+  font-size: 13px;
+  font-family: "Samsung Sharp Sans", sans-serif;
+  font-weight: 600;
+  color: #181818;
+  background-color: #bd1733;
+  color: #fff;
+  padding: 15px;
+  width: 25%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.home-banner .wrapper .content-2 .drop-wrapper .drop-zone__prompt2 {
+  font-size: 13px;
+  font-family: "Samsung Sharp Sans", sans-serif;
+  font-weight: 600;
+  color: #181818;
+  background-color: #bd1733;
+  color: #fff;
+  padding: 13px;
+  width: 40%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.home-banner .wrapper .content-2 .drop-wrapper .drop-zone__prompt2 img {
+  width: 35px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.home-banner .wrapper .content-2 .upload-container-2 {
+  text-align: center;
+  background-color: #fff;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-1 .prof img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-1 .name-con {
+  width: 40%;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-1 .name-con .name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between !important;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-1 .name-con .name h3 {
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  margin-left: -50px;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-1 .name-con .name h4 {
+  font-size: 12px;
+  font-weight: normal;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-1 img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #e1e1e1;
+  padding: 20px 30px;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-2 h3 {
+  font-size: 15px;
+  color: #77839f;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-2 h4 {
+  font-size: 12px;
+  font-weight: normal;
+  color: #979fb8;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-2 img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-2 .graph {
+  width: 50%;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-2 .graph .name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-2 .graph img {
+  width: 100%;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-2 .img-check {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-2 .img-check h6 {
+  color: #2c4999;
+  font-size: 30px;
+}
+.home-banner .wrapper .content-2 .description {
+  background-color: #fff;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+.home-banner .wrapper .content-2 .description form input {
+  border: none;
+  width: 100%;
+  color: #000000;
+  font-size: 13px;
+  font-family: "Samsung Sharp Sans", sans-serif;
+  font-weight: 500;
+}
+.home-banner .wrapper .content-2 .description form input::-moz-placeholder {
+  color: #d3d3d3;
+  font-size: 13px;
+}
+.home-banner .wrapper .content-2 .description form input::placeholder {
+  color: #d3d3d3;
+  font-size: 13px;
+}
+.home-banner .wrapper .content-2 .btn-submit {
+  background-color: #bd1733;
+  padding: 20px 80px;
+  margin-top: 30px;
+  font-family: "Samsung Sharp Sans", sans-serif;
+  text-align: center;
+  border-radius: 5px;
+  width: 50%;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+}
+
+.home-banner-upload {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+  padding-top: 250px;
+  min-height: 100vh;
+  position: relative;
+}
+.home-banner-upload .back-btn {
+  background-color: #bd1733;
+  font-size: 23px;
+  font-family: "Sharp Sans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 15px 20px;
+  line-height: 1;
+  border-radius: 10px;
+  color: #fff;
+}
+.home-banner-upload .wrapper {
+  align-items: center;
+}
+.home-banner-upload .wrapper .content h1 {
+  color: #fff;
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.home-banner-upload .wrapper .content .upload-list {
+  margin-bottom: 40px;
+}
+.home-banner-upload .wrapper .content .upload-list .list {
+  background-color: #bd1733;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+}
+.home-banner-upload .wrapper .content .upload-list .list h2 {
+  color: #d2d2d2;
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+.home-banner-upload .wrapper .content .upload-list .list p {
+  color: #d2d2d2;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+.home-banner-upload .wrapper .descript-form h1 {
+  color: #fff;
+  font-size: 80px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+.home-banner-upload .wrapper .descript-form form label {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.home-banner-upload .wrapper .descript-form form input {
+  width: 100%;
+  border: none;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  color: #7d7d7d;
+  background-color: rgba(0, 0, 0, 0.5); /* Setting opacity with RGBA */
+}
+.home-banner-upload .wrapper .descript-form form input::-moz-placeholder {
+  color: #7d7d7d;
+}
+.home-banner-upload .wrapper .descript-form form input::placeholder {
+  color: #7d7d7d;
+}
+.home-banner-upload .wrapper .descript-form form textarea {
+  border-radius: 5px;
+  width: 100%;
+  padding: 20px;
+  color: #7d7d7d;
+  background-color: rgba(0, 0, 0, 0.5); /* Setting opacity with RGBA */
+}
+.home-banner-upload .wrapper .descript-form form textarea::-moz-placeholder {
+  color: #7d7d7d;
+}
+.home-banner-upload .wrapper .descript-form form textarea::placeholder {
+  color: #7d7d7d;
+}
+.home-banner-upload .wrapper .descript-form form .btn-submit {
+  background-color: #bd1733;
+  padding: 20px 80px;
+  margin-top: 30px;
+  font-family: "Samsung Sharp Sans", sans-serif;
+  text-align: center;
+  border-radius: 5px;
+  width: 40%;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+.home-banner-upload .wrapper .descript-form2 h1 {
+  color: #fff;
+  font-size: 80px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+.home-banner-upload .wrapper .descript-form2 textarea {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+}
+.home-banner-upload .wrapper .descript-form2 textarea::-moz-placeholder {
+  font-size: 20px;
+  color: #575757;
+}
+.home-banner-upload .wrapper .descript-form2 textarea::placeholder {
+  font-size: 20px;
+  color: #575757;
+}
+.home-banner-upload .wrapper .descript-form2 button {
+  display: grid;
+  justify-content: center;
+}
+.home-banner-upload .wrapper .descript-form2 .btn {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+.home-banner-upload .wrapper .descript-form2 .btn .btn-submit {
+  background-color: #bd1733;
+  padding: 20px 80px;
+  margin-top: 30px;
+  font-family: "Samsung Sharp Sans", sans-serif;
+  text-align: center;
+  border-radius: 5px;
+  width: 250px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+
+.signup {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+  padding-top: 250px;
+}
+.signup .wrapper .form {
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 90px;
+  border-radius: 10px;
+}
+.signup .wrapper .form h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 60px;
+}
+.signup .wrapper .form form p {
+  text-align: center;
+  color: #fff;
+  font-family: "Samsung Sharp Sans", sans-serif;
+  font-weight: 500;
+}
+.signup .wrapper .form form span a {
+  color: #fff;
+  font-weight: bold;
+}
+.signup .wrapper .form form input {
+  width: 100%;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+.signup .wrapper .form form input::-moz-placeholder {
+  color: #fff;
+  font-family: "Samsung Sharp Sans", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.signup .wrapper .form form input::placeholder {
+  color: #fff;
+  font-family: "Samsung Sharp Sans", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.signup .wrapper .form form button {
+  width: 100%;
+  background-color: #bd1733;
+  padding: 20px;
+  color: #fff;
+  font-weight: 500;
+  font-family: "Samsung Sharp Sans", sans-serif;
+  border-radius: 15px;
+  border: none;
+  margin-top: 30px;
+}
+
+.drop-zone {
+  max-width: 100%;
+  height: 80px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  color: #cccccc;
+  border: 4px dashed #fff;
+  border-radius: 50px;
+  margin-top: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.drop-zone img {
+  margin-right: 20px;
+}
+
+.drop-zone--over {
+  border-style: solid;
+}
+
+.drop-zone__input {
+  display: none;
+}
+
+.drop-zone__input2 {
+  display: none;
+}
+
+.drop-zone__thumb {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #cccccc;
+  background-size: cover;
+  position: relative;
+}
+
+.drop-zone__thumb::after {
+  content: attr(data-label);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 0;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.75);
+  font-size: 14px;
+  text-align: center;
+}
+
+.drop-zone__prompt {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  color: #33302f;
+}
+.drop-zone__prompt b {
+  border-bottom: 1px solid #000;
+}
+
+.drop-details {
+  margin-top: 30px;
+}
+.drop-details p {
+  font-size: 18px;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+.upload-details {
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+.upload-details ul li .img-uploaded {
+  padding: 15px;
+  position: relative;
+}
+.upload-details ul li .img-uploaded:before {
+  content: "";
+  height: 27px;
+  width: 27px;
+  border-top: 1px solid #df0025;
+  border-left: 1px solid #df0025;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.upload-details ul li .img-uploaded:after {
+  content: "";
+  height: 27px;
+  width: 27px;
+  border-bottom: 1px solid #df0025;
+  border-right: 1px solid #df0025;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.upload-details ul li .img-uploaded img.order__image {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.upload-container {
+  text-align: center;
+  background-color: #fff;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.progress-container {
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+}
+
+.progress-bar {
+  height: 20px;
+  width: 0;
+  background-color: #2c4999;
+  transition: width 0.3s ease-in-out;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  gap: 50px;
+}
+
+.progress-text {
+  margin-right: 10px;
+  color: #2c4999;
+  font-size: 15px;
+}
+
+.thumbnail {
+  max-width: 100%;
+  max-height: 100px;
+}
+
+#actionIcon {
+  font-size: 24px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.m-view {
+  display: none;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  z-index: 998; /* Ensure the overlay is behind the popup but above the page content */
+}
+
+.video-gallery {
+  padding: 200px 0;
+  min-height: 10vh;
+}
+.video-gallery h1 {
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+  color: #bd1733;
+  margin-bottom: 20px;
+}
+.video-gallery .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+.video-gallery .wrapper .vid-list img {
+  width: 100%;
+  height: 200px;
+}
+
+.gallery-mobile {
+  padding: 200px 20px;
+  min-height: 10vh;
+  background-color: #e4e4e4;
+}
+.gallery-mobile h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #bd1733;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.gallery-mobile .wrapper .vid-list {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.gallery-mobile .wrapper .vid-list h2 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #bd1733;
+}
+.gallery-mobile .wrapper .vid-list img {
+  width: 50%;
+}
+
+.service-pix {
+  padding-top: 200px;
+  overflow-y: hidden;
+}
+.service-pix .wrapper .images-slider {
+  margin-top: 50px;
+}
+.service-pix .wrapper .images-slider h1 {
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+  color: #bd1733;
+  margin-bottom: 20px;
+}
+.service-pix .wrapper .images-slider .pix-slider {
+  height: 50%;
+}
+.service-pix .wrapper .images-slider .pix-slider .owl-stage,
+.service-pix .wrapper .images-slider .pix-slider .owl-item,
+.service-pix .wrapper .images-slider .pix-slider li,
+.service-pix .wrapper .images-slider .pix-slider .owl-stage-outer {
+  height: 100%;
+}
+.service-pix .wrapper .images-slider .pix-slider .owl-item {
+  position: relative;
+  opacity: 0.3;
+  transition: opacity 0.5s ease;
+  width: 100%; /* Set width to half */
+  margin-right: 5px; /* Adjust spacing between items */
+}
+.service-pix .wrapper .images-slider .pix-slider .owl-item.active {
+  opacity: 1;
+  width: 100%; /* Set width to full in active state */
+}
+.service-pix .wrapper .images-slider .pix-slider .owl-dots {
+  display: flex;
+  text-align: center;
+  gap: 10px;
+  margin-top: -400px;
+  justify-content: center;
+}
+.service-pix .wrapper .images-slider .pix-slider .owl-dots .owl-dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 50px;
+  border: 1px solid #707070;
+}
+.service-pix .wrapper .images-slider .pix-slider .owl-dots .owl-dot.active {
+  background-color: #bd1733;
+}
+.service-pix .wrapper .images-slider ul img {
+  width: 100%;
+  height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.back-btn {
+  background-color: #bd1733;
+  font-size: 15px !important;
+  font-family: "Sharp Sans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 15px 20px;
+  line-height: 1;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.back-btn img {
+  width: 30px !important;
+}
+
+.delete {
+  background-color: transparent;
+  border: 1px solid #000;
+  padding: 20px 35px;
+  margin-left: 30px;
+  border-radius: 10px;
+  border: none;
+  font-family: "Sharp Sans", sans-serif;
+  background-color: #2c4999;
+  color: white;
+}
+.delete a {
+  text-align: center !important;
+}
+
+.password-input {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  top: 35%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  font-size: 20px;
+}
+
+.toggle-password:hover {
+  color: #333;
+}
+
+.home-def {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 50px;
+}/*# sourceMappingURL=main.css.map */
