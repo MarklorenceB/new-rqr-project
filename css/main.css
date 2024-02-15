@@ -167,6 +167,15 @@ header {
   display: flex;
   align-items: center;
 }
+
+
+@media not all and (min-resolution:.001dpcm) { 
+  .home-banner {
+    -webkit-height: 100vh!important;
+    height: 100vh!important;
+  }
+}
+
 .home-banner .back-btn {
   background-color: #bd1733;
   font-size: 15px;
