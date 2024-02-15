@@ -171,12 +171,6 @@ header {
   padding:20px;
 }
 
-
-.home-banner {
-  -webkit-height: 100vh!important;
-  height: 100vh!important;
-}
-
 .home-banner .back-btn {
   background-color: #bd1733;
   font-size: 15px;

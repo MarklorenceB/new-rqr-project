@@ -584,8 +584,8 @@
     height: 100vh !important;
   }
   .homecustom {
-    padding-top: 100px !important;
-    padding-bottom: 30px !important;
+    /* padding-top: 100px !important; */
+    /* padding-bottom: 30px !important; */
     height: 100vh !important;
     -webkit-height: 100vh !important;
   }
