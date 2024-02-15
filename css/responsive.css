@@ -1012,7 +1012,7 @@
       -webkit-min-height: 100vh!important;
       min-height: 100vh!important;
       height: 100vh!important;
-      padding: 0;
+      padding: 20px;
     }
 
   .home-banner .wrapper .content-2 .drop-wrapper .drop-zone {

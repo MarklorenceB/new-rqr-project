@@ -168,6 +168,7 @@ header {
   height: 100vh!important;
   display: flex;
   align-items: center;
+  padding:20px;
 }
 
 
