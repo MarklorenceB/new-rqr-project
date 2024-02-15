@@ -1004,9 +1004,13 @@
     top: 0px;
   }
 
-  .home-banner {
-    height: 100vh !important;
-    -webkit-height: 100vh!important;
+
+  @media not all and (min-resolution:.001dpcm) { 
+    .home-banner {
+      -webkit-height: 100vh!important;
+      height: 100vh!important;
+      padding: 0;
+    }
   }
 
   .home-banner .wrapper .content-2 .drop-wrapper .drop-zone {
