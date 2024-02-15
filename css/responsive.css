@@ -1006,6 +1006,7 @@
 
   .home-banner {
     height: 100vh !important;
+    -webkit-height: 100vh!important;
   }
 
   .home-banner .wrapper .content-2 .drop-wrapper .drop-zone {
