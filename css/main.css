@@ -145,20 +145,24 @@ header {
 
 .h-auto {
   height: 100vh !important;
+  -webkit-height: 100vh!important;
 }
 
 .h-auto-2 {
   height: 100vh !important;
+  -webkit-height: 100vh!important;
 }
 
 .h-auto-3 {
   height: 100vh !important;
+  -webkit-height: 100vh!important;
 }
 
 .home-banner {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-height: 100vh!important;
   height: 100vh!important;
   display: flex;
   align-items: center;
