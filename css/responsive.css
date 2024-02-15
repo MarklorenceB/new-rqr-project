@@ -1008,6 +1008,8 @@
   @media not all and (min-resolution:.001dpcm) { 
     .home-banner {
       -webkit-height: 100vh!important;
+      -webkit-min-height: 100vh!important;
+      min-height: 100vh!important;
       height: 100vh!important;
       padding: 0;
     }
