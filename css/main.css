@@ -1122,7 +1122,7 @@ header {
   display: flex;
   align-items: flex-end;
   padding: 160px 0px 20px;
-  height: auto;
+  height: auto!important;
 }/*# sourceMappingURL=main.css.map */
 
 }
