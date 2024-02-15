@@ -107,12 +107,12 @@
             <div class="col-lg-7">
               <div class="descript-form">
                 <h1>family history</h1>
-                <form>
+                <form action="family-history-submit.html">
                   <label> Date of Birth : </label>
-                  <input type="text" placeholder="Add Text Here |" />
+                  <input type="text" placeholder="Add Text Here |" required/>
 
                   <label> Address :</label>
-                  <input type="text" placeholder="Add Text Here |" />
+                  <input type="text" placeholder="Add Text Here |" required/>
 
                   <label>Adult History</label>
                   <textarea
@@ -125,11 +125,12 @@
 
                   <div id="overlay" class="overlay"></div>
 
-                  <a href="#">
+                  <!-- <a href="#">
                     <div class="btn-submit" onclick="showPopup()">
                       submit
-                    </div></a
-                  >
+                    </div>
+                  </a> -->
+                  <input type="submit" value="Submit" class="btn-submit">
                   <div id="successPopup" class="popup">
                     Uploaded Successfully!
                   </div>

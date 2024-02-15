@@ -98,13 +98,13 @@
       >
         <div class="container w-100 z-top">
           <div class="mb-4">
-            <a href="family-history-page.html" class="back-btn">
+            <a href="family-history.html" class="back-btn">
               <img src="images/data/back.png" alt="" />
               Back
             </a>
           </div>
           <div class="wrapper">
-            <div class="descript-form2">
+            <form action="upload-civilian-picture.html" class="descript-form2">
               <h1 class="text-center">family history</h1>
               <textarea
                 name=""
@@ -115,16 +115,13 @@
               ></textarea>
               <div class="btn">
                 <div id="overlay" class="overlay"></div>
-                <a href="#">
-                  <button class="btn-submit" onclick="showPopup()">
-                    submit
-                  </button></a
-                >
+                <!-- <a href="#"><button class="btn-submit" onclick="showPopup()">submit</button></a> -->
+                <input type="submit" value="Submit" class="btn-submit">
                 <div id="successPopup" class="popup">
                   Uploaded Successfully!
                 </div>
               </div>
-            </div>
+            </form>
           </div>
         </div>
       </section>

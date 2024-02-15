@@ -95,13 +95,13 @@
       >
         <div class="container w-100 z-top">
           <div class="mb-4 uploadBtn">
-            <a href="upload-page-latest.html" class="back-btn">
+            <a href="family-history-submit.html" class="back-btn">
               <img src="images/data/back.png" alt="" />
               Back
             </a>
           </div>
           <div class="row wrapper">
-            <div class="col-lg-6">
+            <form action="upload-heropictures.html" class="col-lg-6">
               <div class="content-2">
                 <h1>Upload civilian picture here</h1>
 
@@ -115,6 +115,7 @@
                     id="fileInput"
                     style="display: none"
                     onchange="uploadFile(this)"
+                    required
                   />
                   <!-- <a href="#">Browse files</a> -->
                 </div>
@@ -131,6 +132,7 @@
                       class="drop-zone__input"
                       id="fileInput"
                       onchange="handleFileUpload()"
+                      required
                     />
                   </div>
                   <div class="drop-details text-center z-top">
@@ -200,25 +202,21 @@
                 </div>
 
                 <div class="description">
-                  <form>
                     <input
                       type="text"
                       placeholder="Brief description of picture"
+                      style="border: none; width: 100%;"
                     />
-                  </form>
                   <!-- <p>Brief description of picture</p> -->
                 </div>
                 <div id="overlay" class="overlay"></div>
-                <a href="#">
-                  <button class="btn-submit" onclick="showPopup()">
-                    submit
-                  </button></a
-                >
+                <!-- <a href="#"><button class="btn-submit" onclick="showPopup()">submit</button></a> -->
+                <input type="submit" value="SUBMIT" class="btn-submit">
                 <div id="successPopup" class="popup">
                   Uploaded Successfully!
                 </div>
               </div>
-            </div>
+            </form>
             <div class="col-lg-6"></div>
           </div>
         </div>

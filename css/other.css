@@ -117,12 +117,12 @@
   top:0px;
 }
 
-.serv-des-res .mb-4{
+/* .serv-des-res .mb-4{
   top:-65px;
-}
+} */
 
 .des-res{
-  padding:230px 20px 20px!important;
+  padding:100px 20px 20px!important;
 }
 
 .upload-latest-res{
@@ -545,6 +545,7 @@
   border: 1px solid #fff;
   padding: 15px 20px;
   border-radius: 5px;
+  display: none;
 }
 .all-btn .btn-list .btn-delete a {
   color: #fff;

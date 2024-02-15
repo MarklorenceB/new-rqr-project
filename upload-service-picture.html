@@ -98,13 +98,13 @@
       >
         <div class="container">
           <div class="mb-3">
-            <a href="upload-page-latest.html" class="back-btn">
+            <a href="upload-heropictures.html" class="back-btn">
               <img src="images/data/back.png" alt="" />
               Back
             </a>
           </div>
           <div class="row wrapper">
-            <div class="col-lg-6">
+            <form action="upload-service-videos.html" class="col-lg-6">
               <div class="content-2">
                 <h1>Upload service picture here</h1>
 
@@ -206,20 +206,18 @@
                     <input
                       type="text"
                       placeholder="Brief description of picture"
+                      style="border: none; width: 100%;"
                     />
                   </form>
                 </div>
                 <div id="overlay" class="overlay"></div>
-                <a href="#">
-                  <button class="btn-submit" onclick="showPopup()">
-                    submit
-                  </button></a
-                >
+                <!-- <a href="#"><button class="btn-submit" onclick="showPopup()">submit</button></a> -->
+                <input type="submit" value="SUBMIT" class="btn-submit">
                 <div id="successPopup" class="popup">
                   Uploaded Successfully!
                 </div>
               </div>
-            </div>
+            </form>
             <div class="col-lg-6"></div>
           </div>
         </div>
