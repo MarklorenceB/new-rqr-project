@@ -106,6 +106,8 @@
                 <h1>SIGN UP</h1>
                 <form>
                   <input type="email" placeholder="Email" />
+                  <!-- <input type="password" placeholder="Password" /> -->
+
                   <div class="password-input">
                     <input
                       type="password"
@@ -113,13 +115,13 @@
                       name="password"
                       placeholder="Password"
                     />
-                    <span class="toggle-password" id="togglePassword"
-                      >&#128065;</span
-                    >
+                    <!-- <span class="toggle-password" id="togglePassword">&#128065;</span> -->
+                    <span class="toggle-password" id="togglePassword"><img src="../images/maineye.webp"></span>
                   </div>
+
                   <p>
                     ALREADY A MEMBER ?
-                    <span> <a href="login-web3.html"> LOG IN</a></span>
+                    <span> <a href="login.html"> LOG IN</a></span>
                   </p>
                   <button>SIGN UP</button>
                 </form>
@@ -164,7 +166,7 @@
               : "password";
           passwordInput.setAttribute("type", type);
           togglePasswordBtn.innerHTML =
-            type === "password" ? "&#128065;" : "&#128064;";
+            type === "password" ? `<img src="../images/maineye.webp">` : `<img src="../images/showEye-white.webp">`;
         });
       });
     </script>

@@ -115,9 +115,8 @@
                       name="password"
                       placeholder="Password"
                     />
-                    <span class="toggle-password" id="togglePassword"
-                      >&#128065;</span
-                    >
+                    <!-- <span class="toggle-password" id="togglePassword">&#128065;</span> -->
+                    <span class="toggle-password" id="togglePassword"><img src="../images/maineye.webp"></span>
                   </div>
 
                   <p>
@@ -168,7 +167,7 @@
               : "password";
           passwordInput.setAttribute("type", type);
           togglePasswordBtn.innerHTML =
-            type === "password" ? "&#128065;" : "&#128064;";
+            type === "password" ? `<img src="../images/maineye.webp">` : `<img src="../images/showEye-white.webp">`;
         });
       });
     </script>

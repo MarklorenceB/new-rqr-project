@@ -109,6 +109,27 @@
   align-items: flex-end;
 }
 
+.serv-pic-res, .serv-vid-page{
+  height: auto;
+}
+
+.serv-pic-res .mb-4, .serv-vid-page .mb-4{
+  top:0px;
+}
+
+.serv-des-res .mb-4{
+  top:-65px;
+}
+
+.des-res{
+  padding:230px 20px 20px!important;
+}
+
+.upload-latest-res{
+  display: flex!important;
+  align-items: center!important;
+}
+
 .z-serv-vid-res .mb-4{
   top:25px;
 }
@@ -116,6 +137,7 @@
 .serv-vid-inner-res{
   position: relative!important;
 }
+
 
 
 
@@ -617,7 +639,15 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  margin-top: 100px;
 }
+
+
+.userPage-civ-res .mb-4{
+  top:20px;
+}
+
+
 .common-conntent-block .custom-column {
   width: 18%;
 }

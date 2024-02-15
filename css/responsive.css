@@ -58,6 +58,13 @@
     margin-bottom: 30px;
     padding-bottom: 50px;
   }
+
+
+  .home-banner-upload{
+    height: auto!important;
+  }
+
+
   .home-banner-upload .wrapper .content .upload-list {
     margin-bottom: 40px;
     width: 500px;
@@ -133,7 +140,7 @@
     height: 130px;
   }
   .delete {
-    padding: 10px 20px;
+    padding: 12px 20px;
     font-size: 10px;
     margin-left: 10px;
   }
@@ -859,7 +866,8 @@
 
   .album-section {
     align-items: center;
-    padding: 0px 20px 30px !important;
+    justify-content: center;
+    padding: 90px 20px 20px !important;
   }
 
   .profile-blocks2 .profile-wrapper {
@@ -899,6 +907,7 @@
   .common-conntent-block {
     gap: 10px;
     justify-content: space-between;
+    margin-top: 30px;
   }
 
   .cil-pro-res {
@@ -951,6 +960,7 @@
 
   .home-banner-upload {
     height: 100vh !important;
+    padding:150px 20px 20px!important;
   }
 
   .name-mob-res,
@@ -1004,6 +1014,10 @@
 
   .uploadBtn {
     top: 0px;
+  }
+
+  .inner-his-res .mb-4{
+    top:-25px;
   }
 
 

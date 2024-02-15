@@ -190,3 +190,19 @@ lightbox.option({
   resizeDuration: 200,
   wrapAround: true,
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const passwordInput = document.getElementById("password");
+  const togglePasswordBtn = document.getElementById("togglePassword");
+
+  togglePasswordBtn.addEventListener("click", function () {
+    const type =
+      passwordInput.getAttribute("type") === "password"
+        ? "text"
+        : "password";
+    passwordInput.setAttribute("type", type);
+    togglePasswordBtn.innerHTML =
+      type === "password" ? `<img src="../images/maineye.webp">` : `<img src="../images/showEye-white.webp">`;
+  });
+});
