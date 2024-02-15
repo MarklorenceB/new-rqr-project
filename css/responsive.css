@@ -1,4 +1,4 @@
-@media not all and (min-resolution:.001dpcm) { 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
 
 @media (min-width: 1200px) {
   .container {
