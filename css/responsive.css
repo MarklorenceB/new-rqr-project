@@ -1,3 +1,5 @@
+@media not all and (min-resolution:.001dpcm) { 
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1280px;
@@ -1005,15 +1007,13 @@
   }
 
 
-  @media not all and (min-resolution:.001dpcm) { 
-    .home-banner {
-      -webkit-height: 100%!important;
-      -webkit-min-height: 100%!important;
-      min-height: 100%!important;
-      height: 100%!important;
+  .home-banner {
+      -webkit-height: 100vh!important;
+      -webkit-min-height: 100vh!important;
+      min-height: 100vh!important;
+      height: 100vh!important;
       padding: 0;
     }
-  }
 
   .home-banner .wrapper .content-2 .drop-wrapper .drop-zone {
     align-items: center;
@@ -1074,3 +1074,4 @@
     min-height: 20px !important;
   }
 } */
+}

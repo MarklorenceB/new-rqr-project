@@ -1,3 +1,5 @@
+@media not all and (min-resolution:.001dpcm) { 
+
 @import url("https://fonts.cdnfonts.com/css/sharp-sans");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
@@ -658,3 +660,6 @@ h1 {
 .m-view {
   display: none;
 }/*# sourceMappingURL=other.css.map */
+
+
+}

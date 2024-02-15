@@ -1,3 +1,5 @@
+@media not all and (min-resolution:.001dpcm) { 
+
 @import url("https://fonts.cdnfonts.com/css/bebas-neue");
 @import url("https://fonts.cdnfonts.com/css/samsung-sharp-sans");
 html,
@@ -169,11 +171,9 @@ header {
 }
 
 
-@media not all and (min-resolution:.001dpcm) { 
-  .home-banner {
-    -webkit-height: 100vh!important;
-    height: 100vh!important;
-  }
+.home-banner {
+  -webkit-height: 100vh!important;
+  height: 100vh!important;
 }
 
 .home-banner .back-btn {
@@ -1128,3 +1128,5 @@ header {
   align-items: flex-end;
   padding: 150px 0px 20px;
 }/*# sourceMappingURL=main.css.map */
+
+}
