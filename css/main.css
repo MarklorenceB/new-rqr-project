@@ -1120,7 +1120,7 @@ header {
 
 .home-def {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start!important;
   padding: 160px 0px 20px;
   height: auto!important;
 }/*# sourceMappingURL=main.css.map */
