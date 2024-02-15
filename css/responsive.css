@@ -578,8 +578,8 @@
     width: 40px;
   }
   .home-banner {
-    padding-top: 100px !important;
-    padding-bottom: 30px;
+    /* padding-top: 100px !important; */
+    /* padding-bottom: 30px; */
     -webkit-height: 100vh !important;
     height: 100vh !important;
   }
