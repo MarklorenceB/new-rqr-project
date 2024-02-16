@@ -669,9 +669,14 @@ header {
   border-radius: 5px;
   width: 100%;
   padding: 20px;
-  color: #7d7d7d;
+  color: #fff;
   background-color: rgba(0, 0, 0, 0.5); /* Setting opacity with RGBA */
 }
+
+.home-banner-upload .wrapper .descript-form form textarea::placeholder{
+  color: #7d7d7d; 
+}
+
 .home-banner-upload .wrapper .descript-form form textarea::-moz-placeholder {
   color: #7d7d7d;
 }
