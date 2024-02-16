@@ -290,9 +290,10 @@
   }
   .sign-1 {
     background-position: center center;
-    background-image: url(".././images/sign-1.png") !important;
+    background-image: url(".././images/signup-main-img.png") !important;
     height: auto;
   }
+
   .sign-2 {
     background-position: center center;
     background-image: url(".././images/sign2.png") !important;
@@ -309,7 +310,7 @@
     height: auto;
   }
   .home-banner .wrapper .content h1 {
-    font-size: 45px;
+    font-size: 55px;
     text-shadow: none;
     text-shadow:0px 3px 6px rgba(0, 0, 0, 0.5);
   }
@@ -317,7 +318,7 @@
     margin-top: -5px !important;
   }
   .home-banner .wrapper .content .mt {
-    font-size: 55px;
+    font-size: 75px;
   }
   .home-banner .wrapper .content .btn-home {
     display: block;
@@ -336,11 +337,21 @@
   .home-banner .wrapper .content .btn-home .btn-login {
     display: grid;
     justify-content: center;
-    margin: 120px 0px 20px auto;
+    margin: 140px 0px 20px auto;
     width: 100% !important;
     font-size: 15px;
     padding: 20px 0px;
   }
+
+  .home-banner .wrapper .content .btn-home .btn-login a{
+    font-size: 20px;
+  }
+
+  .home-banner .wrapper .content .btn-home .btn-scan a{
+    font-size: 18px;
+  }
+
+
   .album-remember {
     overflow-y: auto;
     max-height: 250px;
@@ -412,7 +423,9 @@
     border-radius: 10px;
     font-size: 15px;
     padding: 13px;
-    margin: 10px auto;
+    margin: 30px auto 10px;
+    display: flex;
+    justify-content: center;
   }
 
   .popup {
@@ -595,7 +608,8 @@
     -webkit-height: 100vh !important;
   }
   .home-banner .wrapper .content-2 h1 {
-    font-size: 25px;
+    font-size: 50px;
+    line-height: .8em;
     text-align: center;
     margin: 0;
   }
@@ -700,7 +714,7 @@
     margin-top: 10px;
   }
   .home-banner-upload .wrapper .descript-form h1 {
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
     margin-bottom: 10px;
   }
@@ -736,7 +750,8 @@
     font-size: 15px;
   }
   .home-banner-upload .wrapper .descript-form2 h1 {
-    font-size: 30px;
+    font-size: 50px;
+    line-height: .8em;
   }
   .home-banner-upload .wrapper .descript-form2 textarea::placeholder {
     font-size: 15px;
@@ -823,7 +838,7 @@
     margin-bottom: 10px;
   }
   .signup .wrapper .form h1 {
-    font-size: 35px;
+    font-size: 55px;
   }
   .mt-2 {
     margin-top: 5px !important;
@@ -857,7 +872,7 @@
   .mb-4 {
     margin-bottom: 10px !important;
     position: relative;
-    top: -30px;
+    top:0px;
   }
 
   .back-btn {
@@ -865,7 +880,7 @@
   }
 
   .album-section {
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     padding: 90px 20px 20px !important;
   }
@@ -907,19 +922,20 @@
   .common-conntent-block {
     gap: 10px;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top:0px;
   }
 
   .cil-pro-res {
     align-items: flex-start;
     justify-content: flex-start;
+    gap:0px;
   }
 
   .pro-res {
     align-items: flex-start;
   }
   .album-1 {
-    padding-top: 110px !important;
+    padding-top: 100px !important;
   }
   .cil-pro-res .mb-4 {
     top: -10px !important;
@@ -951,6 +967,7 @@
 
   .service-desc {
     padding: 0px 10px;
+    margin-bottom: 20px;
   }
 
   .inner-his-res {
@@ -960,7 +977,7 @@
 
   .home-banner-upload {
     height: 100vh !important;
-    padding:150px 20px 20px!important;
+    padding:100px 20px 20px!important;
   }
 
   .name-mob-res,
@@ -970,14 +987,14 @@
     justify-content: center;
   }
 
-  .fam-his-main-res,
+  /* .fam-his-main-res,
   .serv-des-res {
     padding-top: 100px !important;
     justify-content: center;
-  }
+  } */
 
   .serv-des-res .mb-4 {
-    top: -10px;
+    top: 0px;
   }
 
   .home-banner .wrapper .content p {
@@ -986,7 +1003,7 @@
   }
 
   .signup .wrapper .form h1 {
-    font-size: 50px;
+    font-size: 65px;
   }
 
   .serv-des-main,
@@ -1017,7 +1034,7 @@
   }
 
   .inner-his-res .mb-4{
-    top:-25px;
+    top:0px;
   }
 
 
@@ -1073,8 +1090,47 @@
 
   .home-def{
     align-items: center;
-    padding: 100px 20px 20px;
+    padding: 90px 20px 20px!important;
   }
+
+  .home-banner .wrapper h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 0px 10px;
+  }
+
+  .signup .wrapper .form form p{
+    font-size: 12px;
+  }
+
+  .signup .wrapper .form{
+    padding: 0px;
+  }
+
+  .signup .wrapper .form form input{
+    border-radius: 10px;
+    border: 1px solid #fff;
+    font-size: 16px!important;
+    padding:15px;
+  }
+
+  ::placeholder{
+    font-size: 16px!important;
+  }
+
+  .signup .wrapper .form form .button{
+    border-radius: 10px;
+  }
+
+  .h-auto{
+    padding: 20px!important;
+  }
+
+  .home-main h1{
+    text-align: left!important;
+    line-height: .8em!important;
+  }
+  
 }
 /* @media (max-width: 350px) {
   .profile-blocks2 .profile-wrapper h3 {
