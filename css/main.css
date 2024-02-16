@@ -1066,6 +1066,7 @@ header {
   font-weight: bold;
   color: #bd1733;
   margin-bottom: 20px;
+  text-shadow: 0 0 6px #fff;
 }
 .service-pix .wrapper .images-slider .pix-slider {
   height: 50%;
