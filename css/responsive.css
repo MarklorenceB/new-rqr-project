@@ -1203,9 +1203,13 @@
 
 
   .title-main h1{
-    font-size: 60px!important;
+    font-size: 50px!important;
     text-align: left!important;
     line-height: .8em!important;
+  }
+
+  .home-banner .wrapper .content .mt{
+    font-size: 70px!important;
   }
 
   .home-banner .wrapper .content-2 h1{
