@@ -1263,6 +1263,11 @@
   }
 
 
+  .service-pix{
+    padding:0px;
+  }
+
+
 }
 /* @media (max-width: 350px) {
   .profile-blocks2 .profile-wrapper h3 {
