@@ -70,26 +70,24 @@
 
     <main>
       <section
-        class="album-section bg-common prof-1 rel vid-res-mob"
+        class="album-section bg-common prof-1 rel"
         style="background-image: url('images/album/album-background.png')"
       >
-        <div class="container w-100 z-top z-serv-vid-res">
+        <div class="container w-100 z-top">
           <div class="mb-4">
             <a href="service-videos-page.html" class="back-btn">
               <img src="images/data/back.png" alt="" />
               Back
             </a>
           </div>
-
-
-          <div>
-            <div class="title-top m-view">
-              <h1>Service descriptions</h1>
+          <div class="image-frame">
+            <div class="title-top per-page-title  m-view">
+              <h1>Services Videos</h1>
             </div>
-  
+
             <div class="all-btn d-view">
-              <div class="title-top">
-                <h1>Service descriptions</h1>
+              <div class="title-top per-page-title">
+                <h1>Services Videos</h1>
               </div>
   
               <div class="btn-list">
@@ -138,11 +136,8 @@
                 </div>
               </div>
             </div>
-            <div class="image-frame serv-vid-inner-res">
-              <img src="images/service2.png" alt="" />
-              <h2 class="image-name">7044945__15DEB40E.AVI</h2>
-            </div>
-  
+            <img src="images/service2.png" alt="" />
+            <h2 class="image-name">7044945__15DEB40E.AVI</h2>
             <div class="all-btn m-view">
               <div class="title-top mb-4">
                 <!-- <h1>family history</h1> -->
@@ -221,77 +216,5 @@
     <script src="js/jquery.matchHeight.js"></script>
     <script src="js/main.js"></script>
     <script type="text/javascript"></script>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-          const openPopupBtn = document.getElementById("openPopupBtn");
-          const popupContainer = document.getElementById("popupContainer");
-          const closePopupBtn = document.getElementById("closePopupBtn");
-  
-          openPopupBtn.addEventListener("click", function () {
-            popupContainer.style.display = "block";
-          });
-  
-          closePopupBtn.addEventListener("click", function () {
-            popupContainer.style.display = "none";
-          });
-        });
-  
-        document.addEventListener("DOMContentLoaded", function () {
-          const openPopupBtn2 = document.getElementById("openPopupBtn2");
-          const popupContainer2 = document.getElementById("popupContainer2");
-          const closePopupBtn2 = document.getElementById("closePopupBtn2");
-  
-          openPopupBtn2.addEventListener("click", function () {
-            popupContainer2.style.display = "block";
-          });
-  
-          closePopupBtn2.addEventListener("click", function () {
-            popupContainer2.style.display = "none";
-          });
-        });
-  
-        document.addEventListener("DOMContentLoaded", function () {
-          const openPopupBtn3 = document.getElementById("openPopupBtn3");
-          const popupContainer3 = document.getElementById("popupContainer3");
-          const closePopupBtn3 = document.getElementById("closePopupBtn3");
-  
-          openPopupBtn3.addEventListener("click", function () {
-            popupContainer3.style.display = "block";
-          });
-  
-          closePopupBtn3.addEventListener("click", function () {
-            popupContainer3.style.display = "none";
-          });
-        });
-  
-        document.addEventListener("DOMContentLoaded", function () {
-          const openPopupBtn4 = document.getElementById("openPopupBtn4");
-          const popupContainer4 = document.getElementById("popupContainer4");
-          const closePopupBtn4 = document.getElementById("closePopupBtn4");
-  
-          openPopupBtn4.addEventListener("click", function () {
-            popupContainer4.style.display = "block";
-          });
-  
-          closePopupBtn4.addEventListener("click", function () {
-            popupContainer4.style.display = "none";
-          });
-        });
-  
-        // function showPopup() {
-        //   // Display the overlay
-        //   document.getElementById("overlay").style.display = "block";
-  
-        //   // Display the success popup
-        //   document.getElementById("successPopup").style.display = "block";
-  
-        //   // Hide the overlay and popup after a delay (e.g., 2 seconds)
-        //   setTimeout(function () {
-        //     document.getElementById("overlay").style.display = "none";
-        //     document.getElementById("successPopup").style.display = "none";
-        //   }, 2000); // 2000 milliseconds = 2 seconds
-        // }
-      </script>
   </body>
 </html>

@@ -584,7 +584,7 @@
     text-align: center;
   }
   .image-frame img {
-    height: 350px;
+    height: 300px;
     border: none;
     border-radius: 5px;
     box-shadow: 0px 0px 30px 0px rgb(255, 255, 255);
@@ -850,8 +850,16 @@
     line-height: 1em;
   }
   .profile-blocks2 .profile-wrapper h3 {
-    font-size: 23px !important;
+    font-size: 21px !important;
     line-height: 1em;
+  }
+
+  .profile-blocks2 .profile-wrapper{
+    padding:10px;
+  }
+
+  .profile-blocks2{
+    width: 275px!important;
   }
   /* .profile-blocks2 .profile-wrapper {
     min-height: 50px;
@@ -886,7 +894,7 @@
   }
 
   .profile-blocks2 .profile-wrapper {
-    min-height: 90px;
+    min-height: 80px;
   }
 
   .main-wrap {
@@ -1079,12 +1087,13 @@
   }
 
   .home-banner-upload .wrapper .content .upload-list .list h2 {
-    font-size: 23px;
+    font-size: 21px;
   }
 
   .upload-latest-res {
     justify-content: center;
-    padding-top: 60px !important;
+    align-items: flex-start!important;
+    padding-top: 110px !important;
   }
 
 
@@ -1123,13 +1132,10 @@
   }
 
   .h-auto{
-    padding: 20px!important;
+    padding: 130px 20px 20px!important;
+    align-items: flex-start!important;
   }
 
-  .home-main h1{
-    text-align: left!important;
-    line-height: .8em!important;
-  }
 
   .d-flex{
     margin: 20px 0px!important;
@@ -1143,6 +1149,62 @@
 
   .navbar-brand{
     margin-right: 0px!important;
+  }
+
+  .per-page-title h1{
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .all-btn .btn-list .btn-album{
+    display: none!important;
+  }
+
+
+  .civilian-profile .profile-image{
+    height: 140px;
+    width: 110px!important;
+  }
+
+  .home-banner-upload .wrapper .content .upload-list .list{
+    height: 100px!important;
+  }
+
+  .home-banner-upload .wrapper .content .upload-list{
+    width: 90%!important;
+  }
+
+  .home-banner-upload .wrapper .descript-form form textarea{
+    height: 90px!important;
+    padding:15px;
+  }
+
+  .home-banner .wrapper .content-2 .drop-wrapper h4{
+    margin: 5px;
+  }
+
+  .service-pix .wrapper .images-slider ul img{
+    height: 300px!important;
+  }
+
+  .service-pix .wrapper .images-slider .pix-slider .owl-dots{
+    margin-top: -420px;
+  }
+
+
+  .title-main h1{
+    font-size: 60px!important;
+    text-align: left!important;
+    line-height: .8em!important;
+  }
+
+  .home-banner .wrapper .content-2 h1{
+    font-size: 40px;
+  }
+
+  .homecustom{
+    padding:110px 20px 20px!important;
+    align-items: flex-start!important;
   }
 }
 /* @media (max-width: 350px) {
