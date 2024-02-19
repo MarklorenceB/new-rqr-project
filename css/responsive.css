@@ -468,7 +468,7 @@
   .album-section .section-heading {
     font-size: 20px;
     margin-bottom: 10px;
-    margin-top: -30px;
+    margin-top:0px;
   }
   /* .album-2 {
     padding-top: 0;
@@ -890,7 +890,7 @@
   .album-section {
     align-items: flex-start;
     justify-content: center;
-    padding: 90px 20px 20px !important;
+    padding: 110px 20px 20px !important;
   }
 
   .profile-blocks2 .profile-wrapper {
@@ -922,10 +922,7 @@
     top: -30px;
   }
 
-  .alb-mob-res {
-    align-items: flex-start;
-    padding-bottom: 50px !important;
-  }
+
 
   .common-conntent-block {
     gap: 10px;
@@ -943,8 +940,19 @@
     align-items: flex-start;
   }
   .album-1 {
-    padding-top: 100px !important;
+    padding-top: 120px !important;
   }
+
+
+  .album-section .row-list{
+    justify-content: space-around;
+  }
+
+  .album-section .section-heading{
+    font-size:45px;
+    font-family: 'Bebas Neue';
+  }
+
   .cil-pro-res .mb-4 {
     top: -10px !important;
   }
@@ -971,6 +979,8 @@
 
   .m-view h1 {
     margin-bottom: 10px;
+    font-size: 45px;
+    line-height: .8em;
   }
 
   .service-desc {
@@ -985,7 +995,7 @@
 
   .home-banner-upload {
     height: 100vh !important;
-    padding:100px 20px 20px!important;
+    padding:110px 20px 20px!important;
   }
 
   .name-mob-res,
@@ -1047,8 +1057,8 @@
 
 
   .home-banner {
-    -webkit-height: 100vh!important;
-    -webkit-min-height: 100vh!important;
+    -webkit-height: 100vh;
+    -webkit-min-height: 100vh;
     min-height: 100vh!important;
     height: 100vh!important;
     padding: 20px;
@@ -1099,7 +1109,7 @@
 
   .home-def{
     align-items: center;
-    padding: 90px 20px 20px!important;
+    padding: 110px 20px 20px!important;
   }
 
   .home-banner .wrapper h1{
@@ -1132,7 +1142,7 @@
   }
 
   .h-auto{
-    padding: 110px 20px 20px!important;
+    padding: 140px 20px 20px!important;
     align-items: flex-start!important;
   }
 
@@ -1205,6 +1215,30 @@
   .homecustom{
     padding:110px 20px 20px!important;
     align-items: flex-start!important;
+  }
+
+  .navbar-brand{
+    margin: 20px 0px!important;
+  }
+
+  .alb-mob-res{
+    align-items: flex-start;
+    padding: 100px 20px 20px !important;
+  }
+
+  .alb-main-res{
+    gap:10px!important;
+  }
+
+
+
+  .home-banner-upload .wrapper .descript-form h1{
+    font-size: 40px;
+  }
+
+
+  .home-banner-upload .wrapper .descript-form2 h1{
+    font-size: 40px;
   }
 }
 /* @media (max-width: 350px) {
