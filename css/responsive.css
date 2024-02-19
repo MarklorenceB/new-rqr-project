@@ -598,6 +598,7 @@
   .home-banner {
     -webkit-height: 100vh!important;
     height: 100vh!important;
+    overflow: hidden;
   }
   .homecustom {
     height: 100vh!important;
