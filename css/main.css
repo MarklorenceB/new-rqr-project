@@ -139,7 +139,7 @@ textarea:focus {
 }
 
 header {
-  position: absolute;
+  /* position: absolute; */
   left: 0;
   width: 100%;
   top: 0;
@@ -152,6 +152,17 @@ header {
   margin:0 auto;
 }
 
+.navbar{
+  padding: 0px;
+}
+
+.container{
+  padding-top: 20px;
+}
+
+.col-lg-12{
+  padding:0px;
+}
 
 .navbar-brand{
   margin: 30px 0px!important;
@@ -165,8 +176,9 @@ header {
   -webkit-height: 100vh!important;
   height: 100vh!important;
   display: flex;
-  align-items: center;
-  padding:160px 20px 30px;
+  align-items: flex-start;
+  flex-direction: column;
+  padding:20px 20px 30px;
 }
 
 .home-banner .back-btn {
