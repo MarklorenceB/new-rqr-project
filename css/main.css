@@ -157,11 +157,8 @@ header {
 }
 
 .container{
-  padding-top: 20px;
-}
+  padding: 20px 20px 0px!important;
 
-.col-lg-12{
-  padding:0px;
 }
 
 .navbar-brand{
@@ -201,6 +198,8 @@ header {
 .home-banner .back-btn img {
   width: 30px;
 }
+
+
 .home-banner .wrapper {
   align-items: center;
 }
@@ -550,10 +549,10 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  padding: 160px 0px 50px;
-  /* display: flex;
+  padding: 20px;
+  display: flex;
   flex-direction: column;
-  justify-content: flex-end; */
+  justify-content: flex-start;
   position: relative;
 }
 
@@ -757,9 +756,10 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh!important;
-  padding: 100px 20px 20px;
+  padding: 20px;
   display: flex;
   align-items: center;
+  flex-direction: column;
 }
 .signup .wrapper .form {
   background-color: #000;
@@ -1200,7 +1200,7 @@ header {
 .home-def {
   display: flex;
   align-items: flex-start!important;
-  padding: 150px 20px 20px!important;
+  padding: 0px 20px!important;
   height: 100vh!important;
 }/*# sourceMappingURL=main.css.map */
 

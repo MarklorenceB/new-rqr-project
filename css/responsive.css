@@ -889,8 +889,8 @@
 
   .album-section {
     align-items: flex-start;
-    justify-content: center;
-    padding: 110px 20px 20px !important;
+    justify-content: flex-start;
+    padding: 0px 20px!important;
   }
 
   .profile-blocks2 .profile-wrapper {
@@ -912,6 +912,7 @@
     justify-content: center;
     align-items: flex-start;
     height: auto;
+    padding-top:0px;
   }
 
   .mobile-res {
@@ -940,7 +941,8 @@
     align-items: flex-start;
   }
   .album-1 {
-    padding-top: 120px !important;
+    padding-top:0px !important;
+    justify-content: flex-start;
   }
 
 
@@ -990,12 +992,12 @@
 
   .inner-his-res {
     align-items: flex-start;
-    padding-bottom: 0px;
+    padding: 0px 20px !important;
   }
 
   .home-banner-upload {
     height: 100vh !important;
-    padding:110px 20px 20px!important;
+    padding:0px 20px!important;
   }
 
   .name-mob-res,
@@ -1010,6 +1012,19 @@
     padding-top: 100px !important;
     justify-content: center;
   } */
+  
+  .serv-des-res{
+    padding: 0px 20px;
+  }
+
+  .serv-pic-res, .serv-vid-page{
+    padding:0px 20px;
+  }
+
+  .cil-res{
+    padding:0px 20px;
+  }
+
 
   .serv-des-res .mb-4 {
     top: 0px;
@@ -1101,15 +1116,15 @@
   }
 
   .upload-latest-res {
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start!important;
-    padding-top: 110px !important;
+    padding-top:0px 20px !important;
   }
 
 
   .home-def{
     align-items: center;
-    padding: 110px 20px 20px!important;
+    padding: 0px 20px!important;
   }
 
   .home-banner .wrapper h1{
@@ -1142,7 +1157,7 @@
   }
 
   .h-auto{
-    padding: 20px 20px 20px!important;
+    padding: 0px 20px!important;
     align-items: flex-start!important;
   }
 
@@ -1162,7 +1177,7 @@
   }
 
   .per-page-title h1{
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
   }
 
@@ -1217,33 +1232,40 @@
   }
 
   .homecustom{
-    padding:110px 20px 20px!important;
+    padding:0px 20px!important;
     align-items: flex-start!important;
   }
 
   .navbar-brand{
-    margin: 20px 0px!important;
+    margin: 15px 0px!important;
   }
 
   .alb-mob-res{
-    align-items: flex-start;
-    padding: 100px 20px 20px !important;
+    justify-content: flex-start;
+    padding:0px 20px!important;
   }
 
   .alb-main-res{
-    gap:10px!important;
+    gap:0px!important;
+    padding:0px 10px!important;
   }
 
 
 
   .home-banner-upload .wrapper .descript-form h1{
-    font-size: 40px;
+    font-size: 45px;
   }
 
 
   .home-banner-upload .wrapper .descript-form2 h1{
     font-size: 40px;
   }
+
+  .home-banner-upload .wrapper .descript-form2 .btn .btn-submit{
+    margin-top: 0px;
+  }
+
+
 }
 /* @media (max-width: 350px) {
   .profile-blocks2 .profile-wrapper h3 {
